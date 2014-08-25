@@ -1,11 +1,11 @@
 Bulkaria Documentation Repo
 ===========================
 
-# Objetive
-This repository store any kind of documentation about bulkaria.
+## Objetive
+This repository stores any kind of documentation related to project Bulkaria.
 
-Where possible documents should be written in [Markdown](https://help.github.com/articles/markdown-basics) format.
+If possible all documents will be written in [Markdown](https://help.github.com/articles/markdown-basics) format.
 
-# Table of Contents
+## Table of Contents
 
 ##### [Analysis Documention](analysis-doc/README.md)
