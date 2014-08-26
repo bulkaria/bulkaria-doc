@@ -10,7 +10,7 @@ Un @usuario podrá hacerse @miembro para solicitar aclaraciones mediante el &wal
 
 #### Attributes
 * El muro es visible para @miembros y @usuarios en un grupo público.
-* El muro es visible sólo para los @miembros en un grupo privado. #check-close
+* El muro es visible sólo para los @miembros en un grupo privado.
 * En el muro solo pueden realizar entradas los @miembros del grupo. 
 * En el muro también participa el @asesor si es necesario.
 * Esta conformado por mensajes que pueden ser respondidos de manera anidada.
