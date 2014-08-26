@@ -3,12 +3,13 @@ Concept
 funcionalidad de @bulkaria-sitio que permite a los @miembros debatir sobre el objetivo de compra dentro de un @grupo y cuestiones relevantes del ciclo de vida del mismo
 
 ### Definition
-El &wall es solo lectura para @usuarios.
+El muro es el lugar donde los @miembros del grupo pueden socializar y discutir sobre la conformación del producto de manera desestructurada, por ejemplo solicitando se les vote determinada preferencia.
 
 #### Description
 Un @usuario podrá hacerse @miembro para solicitar aclaraciones mediante el &wall y luego abandonar el @grupo sin penalidad mientras el mismo no esté en {production}
 
 #### Attributes
+* El muro es solo lectura para @usuarios.
 * El muro es visible para @miembros y @usuarios en un grupo público.
 * El muro es visible sólo para los @miembros en un grupo privado.
 * En el muro solo pueden realizar entradas los @miembros del grupo. 
