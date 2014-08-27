@@ -8,7 +8,7 @@ Miembro
 Los miembros pueden ser de dos clases, [alumno](alumno.md) o [padre](padre.md).
 
 #### Attributes
-* [curso](../entity/curso.md) al que está asociado el miembro.
+* [curso](../entities/curso.md) al que está asociado el miembro.
 
 ### Processes related to this actor
 [Check-in](../concepts/check-in.md) 
