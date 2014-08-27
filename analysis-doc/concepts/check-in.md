@@ -1,6 +1,6 @@
 Check-in
 ======
-Se denomina check-in a la funcionalidad que deben realizar los [usuarios](../actors/usuario.md) para convertirse en @miembros de un @grupo.
+Se denomina check-in a la acción que deben realizar los [usuarios](../actors/usuario.md) para convertirse en [miembros](../actors/miembro.md) de un [grupo](../actors/grupo.md).
 
 ### Definition
 requiere que el @usuario indique una serie de datos que podrán variar de acuerdo al &producto-específico y al estado del @grupo.
