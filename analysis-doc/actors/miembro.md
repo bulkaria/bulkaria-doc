@@ -2,12 +2,13 @@ Miembro
 ======
 
 ### Definition
-[Usuario](usuario.md) que compone algún [curso](curso.md).
+[Usuario](usuario.md) que compone algún [grupo](grupo.md).
 
 #### Description
-Los miembros pueden ser de dos clases, [alumno](alumno.md) o [padre](padre.md)
+Los miembros pueden ser de dos clases, [alumno](alumno.md) o [padre](padre.md).
 
 #### Attributes
+* [curso](../entity/curso.md) al que está asociado el miembro.
 
 ### Processes related to this actor
 [Check-in](../concepts/check-in.md) 
