@@ -5,9 +5,7 @@ Check-in
 Se denomina check-in a la acción que deben realizar los [usuarios](../actors/usuario.md) para convertirse en [miembros](../actors/miembro.md) de un [grupo](../actors/grupo.md).
 
 #### Description
-El @usuario recibe la invitación a unirse al @grupo por correo y/o redes sociales, u otro medio que implemente @bulkaria-site o, si el @grupo es {público} se une seleccionando la opción "unirse" en la publicación del grupo en @bulkaria-site u otro sitio donde @bulkaria promocione el grupo.
-
-El usuario recibe un correo con un link para realizar el check-in, este correo es enviado por el fundador en la etapa de gestación del grupo o por cualquier miembro del grupo en cualquier etapa.
+El futuro [miembro](../actors/miembro.md) recibe un correo con un link para realizar el check-in, este correo es enviado por el fundador en la etapa de gestación del grupo o por cualquier [miembro](../actors/miembro.md) del grupo en cualquier etapa.
 
 El miembro que crea el [grupo](../actors/grupo.md) se denomina **fundador**
 
