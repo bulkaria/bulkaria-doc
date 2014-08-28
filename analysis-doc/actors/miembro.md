@@ -11,7 +11,7 @@ Los miembros pueden ser de dos clases, [alumno](alumno.md) o [padre](padre.md).
 * [curso](../entities/curso.md) al que está asociado el miembro.
 
 ### Processes related to this actor
-[Check-in](../concepts/check-in.md) 
+[Check-in](../process/check-in.md) 
 
 ### Relationships with other concepts
 No aplica

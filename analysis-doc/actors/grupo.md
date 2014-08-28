@@ -1,5 +1,5 @@
-Usuario
-====
+Grupo
+======
 
 ### Definition
 {TODO}
