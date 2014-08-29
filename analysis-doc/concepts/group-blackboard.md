@@ -1,4 +1,4 @@
-Concept
+Group Blackboard
 ======
 
 ### Definition

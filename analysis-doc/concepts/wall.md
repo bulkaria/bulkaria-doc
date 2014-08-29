@@ -1,4 +1,4 @@
-Concept
+Wall
 ======
 funcionalidad de @bulkaria-sitio que permite a los @miembros debatir sobre el objetivo de compra dentro de un @grupo y cuestiones relevantes del ciclo de vida del mismo
 

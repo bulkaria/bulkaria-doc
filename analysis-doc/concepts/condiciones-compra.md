@@ -1,4 +1,4 @@
-Concept
+Condiciones de Compra
 ======
 son condiciones asociadas a la compra que no constituyen la definición del producto
 

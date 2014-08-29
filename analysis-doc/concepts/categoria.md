@@ -1,5 +1,5 @@
-Concept
-======
+Categoria
+=========
 agrupación jerárquica de productos.
 
 ### Definition
