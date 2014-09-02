@@ -19,7 +19,7 @@ Los items de un producto pueden provenir de distintos [templates](templates.md) 
 Producto: Viaje de egresado
 * Destino [1]
 
-    * Nacional [0,1]
+    * Nacional [1]
         * Bariloche [0,1]
             * Transporte [1]
                 * Bus (0,1)
@@ -36,7 +36,7 @@ Producto: Viaje de egresado
                 
         * Córdoba [0,1]
         
-    * Internacional [0,1]
+    * Internacional [1]
         * Brasil
         * Europa
         * Transporte
