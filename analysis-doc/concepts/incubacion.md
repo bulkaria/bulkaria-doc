@@ -9,21 +9,41 @@ Esta es una de las fases más importantes de BE, en ella los alumnos definen las
 
 Antes de iniciar con el proceso se entiende que el actor [alumno](../actors/alumno.md) ha realizado el proceso de [check-in](../process/check-in.md) convirtiendose en un [miembro](../actors/miembro.md) del [grupo](../actors/grupo.md).
 
-En este proceso, el alumno interactura con tres estructuras bien definidas, **clase de producto**, **característica del producto** y **configuración del producto**.
+En este proceso, el alumno interactura con tres estructuras bien definidas, **clase de producto**, **característica del producto** y **configuración del producto**. (Discutir si un grupo podra contemplar dos o más productos de la misma clase)
 
 ##### Clase de producto
 La clase de producto define un objetivo del grupo que tiene un ciclo de vida propio. Un grupo puede definir varias clases de producto distintas, es decir varios objetivos distintos, por ejemplo *viaje de egresados* y *fiesta de egresados*, pero cada objetivo tendrá su propio [wall](wall.md), su propio [group blackboard](group-blackboard.md) y un ciclo de vida independiente del otro. Solo compartiran los miembros del grupo quienes podrán interactuar con una clase u otra.
 
 ##### Característica del producto
 Define las características escenciales del producto, que no conforman parte de la configuración. Son caracteríticas que deben ser definidas previamente a la configuración, pues sin ellas es imposible configurarlo. 
-Las características tienen una organización gerárquica de árbol y queda completamente definida cuando se ha seleccionado un rama completa del árbol. Ejemplo: para la clase *viaje de egresados* la caracterítica del producto (rama completa) pordría ser: 
+
+Las características tienen una organización jerárquica de árbol con varias raices y queda completamente definida cuando se ha seleccionado un rama completa de **cada** raiz del árbol. Ejemplo: para la clase *viaje de egresados* las caracteríticas del producto seleccionadas por un alumno (ramas completas) pordrían ser: 
 ```
 Destino > Nacional > Bariloche
+Mes > Septiembre
 ```
 Cada nodo del árbol de carcterísticas cuenta con la posibilidad de recibir comentarios en los que los alumnos podrán fundamentar su elección y/o contestar otros comentarios de manera anidada (ver [estructura de comentarios](estructura-de-comentarios.md)).
 
+Cada alumno verá la tendencia del grupo en cuanto a las características gracias a un indicador que mostrará lo seleccionado por sus companeros. Ejemplo:
+```
++ Destino
+|-- Nacional [+18]
+    |-- Bariloche [+15]
+    |-- Mendoza [+3]
+    |-- San Martín de los Andes [--]
+|-- Internacional [+12]
+    |-- Brasil [+10]
+        |-- Rio de Janeiro [+10]
+        |-- Torres [--]
+    |-- Europa [+2]
+        |-- Barcelona+Madrid+Paris+Londres [+2]
+        |-- Barcelona+Madrid+Berlin+Roma [--]
+```
+
+A medida que el alumno vaya definiendo las características, y en base a un costo de referencia que tendrá cada rama, podrá ver un costo total aproximado de su selección.
+
 ##### Configuración del producto
-Una vez seleccionadas las características del producto, el alumno debe proceder a definir la configuración del mismo. Para este fin cuenta con una estructura de árbol que va recorriendo por rama y definiendo, en cada nodo que lo requiera, su preferencia.
+Una vez seleccionadas las características del producto, el alumno debe proceder a definir la configuración del mismo. Para este fin cuenta con una estructura de árbol con varias raices que va recorriendo por rama y definiendo, en cada nodo que lo requiera, su preferencia.
 La preferencia será indicada mediante un valor numérico entre 0 y N dependiendo de:
 
 * si el nodo es final (no tiene hijos o subnodos):
@@ -50,6 +70,10 @@ Ejemplo:
 |-- Pachanga (0..N)
 ```
 Cada nodo del árbol de configuración cuenta con la posibilidad de recibir comentarios en los que los alumnos podrán fundamentar su elección y/o contestar otros comentarios de manera anidada (ver [estructura de comentarios](estructura-de-comentarios.md)).
+
+Cada alumno verá la suma de los valores que cada uno de sus compañeros a asignado a un nodo y de esta manera tendrá un panorama de la configuración a la que tiende el grupo.
+
+A medida que el alumno va realizando la configuración y en base a costos de referencia (promedio o maximo/mínimo) que tendrá cada nodo, dispondrá de un costo total aproximado del producto. Y en base a la configuración consolidada de todos los miembros también podrá ver una tendencia del costo total aproximado de la preferencia del grupo.
 
 ##### Flujo del proceso de incubación
 Para una mejor comprensión de los pasos de este proceso se definen basados en la [clase de producto](#clase de producto) *viaje de egresados*.
