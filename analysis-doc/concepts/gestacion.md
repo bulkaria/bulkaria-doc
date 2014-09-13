@@ -6,6 +6,7 @@ Es la primera fase del proceso del ciclo de vida de un grupo. Del resultado de e
 
 #### Description
 Gestación es la primera etapa de un grupo luego de que un usuario, denominado fundador, solicita la creación a la plataforma.
+Bulkaria informa sobre los terminos y condiciones de uso del sitio, veracidad de los datos ingresados, etc los cuales deberan ser aceptados para poder continuar.
 
 El usuario fundador deberá cursar 6 invitaciones para completar el mínimo de 7 miembros.
 
