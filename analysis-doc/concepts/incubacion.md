@@ -2,27 +2,27 @@ Incubación
 ======
 
 ### Definition
-Se lama incubación a la fase en que los alumnos definen las características del [producto](producto.md) que desean contratar.
+Se llama incubación a la fase en que los alumnos definen las características del [producto](producto.md) que desean contratar.
 
 #### Description
 Esta es una de las fases más importantes de BE, en ella los alumnos definen las características del producto que desean contratar siguiendo el flujo que se explica más abajo. 
 
 Antes de iniciar con el proceso se entiende que el actor [alumno](../actors/alumno.md) ha realizado el proceso de [check-in](../process/check-in.md) convirtiendose en un [miembro](../actors/miembro.md) del [grupo](../actors/grupo.md).
 
-En este proceso, el alumno interactura con tres estructuras bien definidas, **clase de producto**, **característica del producto** y **configuración del producto**. (Discutir si un grupo podra contemplar dos o más productos de la misma clase)
+En este proceso, el alumno interactura con tres estructuras bien definidas, **clase de producto**, **característica del producto** y **configuración del producto**.
 
 ##### Clase de producto
 La clase de producto define un objetivo del grupo que tiene un ciclo de vida propio. Un grupo puede definir varias clases de producto distintas, es decir varios objetivos distintos, por ejemplo *viaje de egresados* y *fiesta de egresados*, pero cada objetivo tendrá su propio [wall](wall.md), su propio [group blackboard](group-blackboard.md) y un ciclo de vida independiente del otro. Solo compartiran los miembros del grupo quienes podrán interactuar con una clase u otra.
 
 ##### Característica del producto
-Define las características escenciales del producto, que no conforman parte de la configuración. Son caracteríticas que deben ser definidas previamente a la configuración, pues sin ellas es imposible configurarlo. 
+Define las características esenciales del producto, que no conforman parte de la configuración. Son caracteríticas que deben ser definidas previamente a la configuración, pues sin ellas es imposible configurarlo. 
 
-Las características tienen una organización jerárquica de árbol con varias raices y queda completamente definida cuando se ha seleccionado un rama completa de **cada** raiz del árbol. Ejemplo: para la clase *viaje de egresados* las caracteríticas del producto seleccionadas por un alumno (ramas completas) pordrían ser: 
+Las características tienen una organización jerárquica de árbol con varias raices y queda completamente definida cuando se ha seleccionado un rama completa de **cada** raiz del árbol. Ejemplo: para la clase *viaje de egresados* las características del producto seleccionadas por un alumno (ramas completas) pordrían ser: 
 ```
 Destino > Nacional > Bariloche
 Mes > Septiembre
 ```
-Cada nodo del árbol de carcterísticas cuenta con la posibilidad de recibir comentarios en los que los alumnos podrán fundamentar su elección y/o contestar otros comentarios de manera anidada (ver [estructura de comentarios](estructura-de-comentarios.md)).
+Cada nodo del árbol de características cuenta con la posibilidad de recibir comentarios en los que los alumnos podrán fundamentar su elección y/o contestar otros comentarios de manera anidada (ver [estructura de comentarios](estructura-de-comentarios.md)).
 
 Cada alumno verá la tendencia del grupo en cuanto a las características gracias a un indicador que mostrará lo seleccionado por sus companeros. Ejemplo:
 ```
@@ -52,9 +52,9 @@ La preferencia será indicada mediante un valor numérico entre 0 y N dependiend
     * podrá recibir 1 ó N si es de opción unitaria obligatoria (al menos se debe optar por una unidad)
 * si el nodo tiene hijos (subnodos):
     * podrá ser 0 ó 1 si es de opción única no obligatoria, es decir si se puede elegir un subnodo y solo uno o ninguno
-    * podrá ser 0 ó N si es de opción múltiple no oblicatoria, es decir se pueden elegir uno o mas subnodos o ninguno
+    * podrá ser 0 ó N si es de opción múltiple no obligatoria, es decir se pueden elegir uno o mas subnodos o ninguno
     * podrá ser 1 si se debe elegir uno y solo uno de sus subnodos
-    * podrá ser 1 ó N si de de opción múltiple oblicatoria, es decir se deben elegir uno o mas subnodos.
+    * podrá ser 1 ó N si de de opción múltiple obligatoria, es decir se deben elegir uno o mas subnodos.
 
 Ejemplo:
 ```
@@ -71,19 +71,19 @@ Ejemplo:
 ```
 Cada nodo del árbol de configuración cuenta con la posibilidad de recibir comentarios en los que los alumnos podrán fundamentar su elección y/o contestar otros comentarios de manera anidada (ver [estructura de comentarios](estructura-de-comentarios.md)).
 
-Cada alumno verá la suma de los valores que cada uno de sus compañeros a asignado a un nodo y de esta manera tendrá un panorama de la configuración a la que tiende el grupo.
+Cada alumno verá la suma de los valores que cada uno de sus compañeros ha asignado a un nodo y de esta manera tendrá un panorama de la configuración a la que tiende el grupo.
 
 A medida que el alumno va realizando la configuración y en base a costos de referencia (promedio o maximo/mínimo) que tendrá cada nodo, dispondrá de un costo total aproximado del producto. Y en base a la configuración consolidada de todos los miembros también podrá ver una tendencia del costo total aproximado de la preferencia del grupo.
 
 ##### Flujo del proceso de incubación
-Para una mejor comprensión de los pasos de este proceso se definen basados en la [clase de producto](#clase de producto) *viaje de egresados*.
+Para una mejor comprensión de los pasos de este proceso, a continuación se ejemplifica con el flujo de la [clase de producto](#clase de producto) *viaje de egresados*.
 
-1. El alumno selecciona la clase de producto en la que desea definir sus preferencias. Si la clase no se encuentra en la lista podrá iniciarla y quedará disponible para otros alumnos. Ejemplo: Selecciona *viaje de egresados*
+1. El alumno selecciona la clase de producto en la que desea definir sus preferencias. Esto creará una instancia de dicha clase para el alumno. Ejemplo: Selecciona *viaje de egresados*
 2. Se le presenta la raíz del árbol de caracteríticas y debe selecionar un nodo. Ejemplo: *Destino Nacional, Destino Internacional*
 3. Luego de seleccionar un nodo raíz (ejemplo: Destino Nacional) debe seleccionar uno de los subnodos que se le presentan (de existir alguno). Ejemplo: *Bariloche, Córdoba, Mendoza, San Martín de los Andes*
 4. Seguirá profundizando en la selección hasta que no existan más ramas en el árbol
-5. BE buscará la plantilla de configuración del producto adecuada a las caracteríticas del producto seleccionado. Ejemplo: no es lo mismo una plantilla para un viaje de egresados a Bariloche que una para un viaje de egresados a Córdoba->Carlos Paz
-6. El alumno deberá configurar los nodos obligatorios del árbol de configuración y podra optar po completar los opcionales
+5. BE buscará la plantilla de configuración del producto adecuada a las características del producto seleccionado. Ejemplo: no es lo mismo una plantilla para un viaje de egresados a Bariloche que una para un viaje de egresados a Córdoba->Carlos Paz
+6. El alumno deberá configurar los nodos obligatorios del árbol de configuración y podra optar por completar los opcionales
 7. Una vez que el alumno considere finalizada su configuración y BE valide su completitud, deberá indicarlo tildando la señal de proceso finalizado
 
 ##### Proceso finalizado
@@ -99,7 +99,7 @@ No aplica
 
 ### Relationships with other concepts
 * [Gestación](gestacion.md)
-* [Desarrollo](development-phase.md)
+* [Desarrollo](desarrollo.md)
 
 ### Examples 
 In line
