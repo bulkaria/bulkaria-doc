@@ -9,7 +9,6 @@ El miembro que crea el [grupo](../actors/grupo.md) se denomina **fundador**
 #### Description
 El futuro [miembro](../actors/miembro.md) recibe un correo con un link para realizar el check-in, este correo podrá ser enviado por:
 
-* el fundador en la etapa de [gestación](../concepts/gestacion.md) del grupo 
 * cualquier [miembro](../actors/miembro.md) del grupo en cualquier etapa
 * un miembro alumno a sus padres
 
@@ -19,9 +18,13 @@ Bulkaria guarda un registro de las invitaciones con la siguiente estructura:
 
 * miembro remitente
 * correo de destino
-* tipo de invitacion que podrá ser: invitación a alumno, invitación a padre, en este ultimo caso, un miembro solo podrá cursar dos invitaciones de este tipo
+* tipo de invitacion 
+    * invitación a alumno
+    * invitación a padre. 
 
-Una invitación a padre no podrá ser realizada en la etapa de gestación.
+En este ultimo caso, un miembro solo podrá cursar dos invitaciones de este tipo.
+
+Una invitación a padre no podrá ser realizada en la etapa de gestación. 
 
 El flujo del proceso es el siguiente:
 

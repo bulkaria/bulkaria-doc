@@ -47,6 +47,8 @@ El Ranking de Ofertas de cada miembro será tomado en cuenta por Bulkaria para c
 
 ##### Selección de Oferta 
 
+**==> Revisar esta etapa!<==**
+
 Una vez finalizada la etapa anterior (el ranking de ofertas), los miembros del Grupo tienen acceso al Ranking Final de Ofertas elaborado por Bulkaria. Teniendo en cuenta la información allí provista, los miembros del Grupo podrán tomar una decisión sobre la oferta a aceptar finalmente. El procedimiento estándar propuesto por Bulkaria para ello será el de votación y decisión por simple mayoría. Estarán habilitados para participar en la votación todos los miembros del Grupo. La selección de la oferta tendrá una fecha límite establecida por el _Calendario del Grupo_.   
 
 Una vez definida la Oferta ganadora, se considerará que todos los miembros del grupo que hubiesen votado quedan automáticamente adheridos a dicha oferta. El proveedor correspondiente a la Oferta seleccionada será informado por Bulkaria para que confirme la validez de la oferta para el número final de adhesiones.

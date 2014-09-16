@@ -9,12 +9,12 @@ Esta es una de las fases más importantes de BE, en ella los alumnos definen las
 
 Antes de iniciar con el proceso se entiende que el actor [alumno](../actors/alumno.md) ha realizado el proceso de [check-in](../process/check-in.md) convirtiendose en un [miembro](../actors/miembro.md) del [grupo](../actors/grupo.md).
 
-En este proceso, el alumno interactura con tres estructuras bien definidas, **clase de producto**, **característica del producto** y **configuración del producto**.
+En este proceso, el alumno interactúa con tres estructuras bien definidas, **clase de producto**, **característica del producto** y **configuración del producto**.
 
 ##### Clase de producto
-La clase de producto define un objetivo del grupo que tiene un ciclo de vida propio. Un grupo puede definir varias clases de producto distintas, es decir varios objetivos distintos, por ejemplo *viaje de egresados* y *fiesta de egresados*, pero cada objetivo tendrá su propio [wall](wall.md), su propio [group blackboard](group-blackboard.md) y un ciclo de vida independiente del otro. Solo compartiran los miembros del grupo quienes podrán interactuar con una clase u otra.
+La clase de producto define un objetivo del grupo que tiene un ciclo de vida propio. Un grupo puede definir varias clases de producto distintas, es decir varios objetivos distintos, por ejemplo *viaje de egresados* y *fiesta de egresados*, pero cada objetivo tendrá su propio [wall](wall.md), su propio [group blackboard](group-blackboard.md) y un ciclo de vida independiente del otro. 
 
-##### Característica del producto
+##### Características del producto
 Define las características esenciales del producto, que no conforman parte de la configuración. Son caracteríticas que deben ser definidas previamente a la configuración, pues sin ellas es imposible configurarlo. 
 
 Las características tienen una organización jerárquica de árbol con varias raices y queda completamente definida cuando se ha seleccionado un rama completa de **cada** raiz del árbol. Ejemplo: para la clase *viaje de egresados* las características del producto seleccionadas por un alumno (ramas completas) pordrían ser: 
@@ -76,7 +76,7 @@ Cada alumno verá la suma de los valores que cada uno de sus compañeros ha asig
 A medida que el alumno va realizando la configuración y en base a costos de referencia (promedio o maximo/mínimo) que tendrá cada nodo, dispondrá de un costo total aproximado del producto. Y en base a la configuración consolidada de todos los miembros también podrá ver una tendencia del costo total aproximado de la preferencia del grupo.
 
 ##### Flujo del proceso de incubación
-Para una mejor comprensión de los pasos de este proceso, a continuación se ejemplifica con el flujo de la [clase de producto](#clase de producto) *viaje de egresados*.
+Para una mejor comprensión de los pasos de este proceso, a continuación se ejemplifica con el flujo de la [clase de producto](clase-de-producto)  *viaje de egresados*.
 
 1. El alumno selecciona la clase de producto en la que desea definir sus preferencias. Esto creará una instancia de dicha clase para el alumno. Ejemplo: Selecciona *viaje de egresados*
 2. Se le presenta la raíz del árbol de caracteríticas y debe selecionar un nodo. Ejemplo: *Destino Nacional, Destino Internacional*
@@ -88,7 +88,7 @@ Para una mejor comprensión de los pasos de este proceso, a continuación se eje
 
 ##### Proceso finalizado
 El alumno contará con un control que le permitirá indicar que ha finalizado con todos los pasos del proceso. Este control solo será accesible en el proceso de configuración del producto y se habilitará luego de que se hayan seleccionado todos los nodos obligatorios.
-El alumno podrá deseleccionar el control si desea reveer su configuración, siempre y cuando el proceso de incubación no haya finalizado.
+El alumno podrá deseleccionar el control si desea reveer su configuración, siempre y cuando la etapa de incubación no haya finalizado.
 El proceso de incubación finaliza cuando 3/4 de los alumnos han marcado su configuración como terminada.
 
 #### Attributes
