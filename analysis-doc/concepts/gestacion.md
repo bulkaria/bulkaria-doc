@@ -2,7 +2,7 @@ Gestación
 ======
 
 ### Definition
-Es la primera fase del proceso del ciclo de vida de un grupo. Del resultado de esta estapa Bulkaria decide si continua con el ciclo de vida del grupo o lo cancela.
+Es la primera fase del proceso del ciclo de vida de un grupo. Del resultado de esta etapa Bulkaria decide si continua con el ciclo de vida del grupo o lo cancela.
 
 #### Description
 Gestación es la primera etapa de un grupo luego de que un usuario, denominado fundador, solicita la creación a la plataforma.
