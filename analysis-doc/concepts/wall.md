@@ -1,3 +1,6 @@
+ATNECIÓN: HAY QUE DEFINIR DOS WALLS, UNO EL WALL GENERAL DEL GRUPO Y OTRO EL WALL CORRESPONDIENTE A CADA OBJETIVO (CLASE DE PRODUCTO)
+
+
 Wall
 ======
 funcionalidad de @bulkaria-sitio que permite a los @miembros debatir sobre el objetivo de compra dentro de un @grupo y cuestiones relevantes del ciclo de vida del mismo

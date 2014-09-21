@@ -2,10 +2,10 @@ Produccion
 ======
 
 ### Definition
-La última etapa activa de un @grupo se denomina Producción. 
+La ?ltima etapa activa de un @grupo se denomina Producci?. 
 
 #### Description
-Comienza después de completarse la etapa de Desarrollo, en la cuál se define la mejor oferta, y precede a la etapa de Cierre, donde toda información relevante a la experiencia del @grupo en cuestión es clasificada y procesada como parte de un proceso de aprendizaje de @Bulkaria-site.
+Comienza despu? de completarse la etapa de Desarrollo, en la cu? se define la mejor oferta, y precede a la etapa de Cierre, donde toda informaci? relevante a la experiencia del @grupo en cuesti? es clasificada y procesada como parte de un proceso de aprendizaje de @Bulkaria-site.
 
 #### Attributes
 
