@@ -2,21 +2,16 @@ Cierre
 ======
 
 ### Definition
-En esta etapa el grupo pasa a un estado en donde ya no es posible realizar mas interacciones sobre el mismo.
+En esta etapa ingresan todas las propuestas que han recibido adhesiones mayores e iguales al cupo m铆nimo (C-) y que hayan alcanzado la fecha de cierre indicada por el proveedor o que hayan llegado al cupo m谩ximo (C+).
 
 #### Description
+Una vez alcanzada la fecha de cierre o el cupo m谩ximo, lo que suceda primero, los miembros del grupo que adhirieron a la propuesta en cuesti贸n deber谩n cumplir con los siguientes pasos:
+
+1. Completar los formularios exigidos por el proveedor para la concreci贸n del contrato
+2. Adjuntar toda la documentaci贸n exigida por el proveedor para la concreci贸n del contrato
+3. Algo mas?
 
 #### Attributes
-* El @grupo pasa a estado {cerrado}
-* El @grupo pierde visibilidad.
-* Se solicita calificaci髇 del proceso al @oferente
-* Se procesa el feedback de las calificaciones de @miembros y @oferentes
-* @bulkaria-site genera informaci髇 estad韘tica del ciclo de vida del @grupo
-* @bulkaria-site genera la informaci髇 de calificaci髇 de @miembros y @oferentes
-* La informaci髇 estad韘tica queda disponible para
-    1. @compradores
-    2. @oferentes
-    3. @usuarios
 	
 ### Processes related to this concept
 
