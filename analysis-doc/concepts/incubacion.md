@@ -7,9 +7,9 @@ Se llama incubación a la fase en que los miembros definen las características 
 #### Description
 Esta es una de las fases más importantes de BE, en ella los miembros definen las características del producto que desean contratar siguiendo el flujo que se explica más abajo. 
 
-Antes de iniciar con el proceso se entiende que el actor [miembro](../actors/miembro.md) ha realizado el proceso de [check-in](../process/check-in.md) convirtiéndose en un [miembro](../actors/miembro.md) del [grupo](../actors/grupo.md).
+Se entiende que el actor [miembro](../actors/miembro.md) ha realizado el proceso de [check-in](../process/check-in.md), convirtiéndose en un [miembro](../actors/miembro.md) del [grupo](../actors/grupo.md), antes de iniciar el proceso.
 
-En este proceso, el miembro interactúa con tres estructuras bien definidas, **clase de producto**, **objetivo** y **configuración del objetivo**.
+En este proceso, el miembro interactúa con tres estructuras bien definidas: **clase de producto**, **objetivo individual** y **configuración del objetivo individual**.
 
 ##### Clase de producto
 La clase de producto acota el tipo de objetivo que podrá configurar un miembro. Cada clase de producto agrupa objetivos de un mismo tipo, con características intrínsecamente similares y con un ciclo de vida común. Un miembro del grupo podrá definir varias clases de producto diferentes, es decir apuntar a varios objetivos distintos, por ejemplo *viaje de egresados* y *fiesta de egresados*, pero cada uno tendrá su propio ciclo de vida, por lo tanto sus propios tiempos, un único [wall](wall.md), etc.
@@ -18,8 +18,8 @@ Si bien el grupo puede tener cualquier cantidad de miembros, no necesariamente t
 
 No obstante esta separación de objetivos, todos los miembros podrán interactuar independientemente de estos en el [wall general del grupo](wall.md)
 
-##### Objetivo
-Dada una clase de producto cada miembro podrá definir el _producto objetivo_ que consiste en seleccionar las características esenciales del producto que lo hacen diferente de otros productos de la misma clase. Para ello Bulkaria contará con una plantilla por clase de producto que consistirá en un conjunto de todas las características que poseen todos los productos de la misma clase. Mediante esta plantilla cada miembro irá definiendo el objetivo como se explica a continuación. 
+##### Objetivo individual
+Dada una clase de producto cada miembro podrá definir el _producto objetivo_ que consiste en seleccionar las características esenciales del producto que lo hacen diferente de otros productos de la misma clase. Para ello Bulkaria contará con una plantilla por clase de producto que consistirá en un conjunto de todas las características que poseen todos los productos de la misma clase. Mediante esta plantilla cada miembro irá definiendo su objetivo individual como se explica a continuación. 
 
 Las características tienen una organización jerárquica de árbol con varias raíces y el objetivo queda completamente definido cuando se ha seleccionado un rama completa de **cada** raíz del árbol. Ejemplo: para la clase *viaje de egresados* el objetivo del producto seleccionado por un miembro (ramas completas) podría ser: 
 ```
@@ -28,7 +28,7 @@ Mes > Septiembre
 ```
 Cada nodo del árbol de características cuenta con la posibilidad de recibir comentarios en los que los miembros podrán fundamentar su elección y/o contestar otros comentarios de manera anidada (ver [estructura de comentarios](estructura-de-comentarios.md)).
 
-Cada miembro verá la tendencia en el objetivo del grupo gracias a un indicador que mostrará las características seleccionadas por sus compañeros. Ejemplo:
+Cada miembro verá la tendencia del grupo visualizando los distintos objetivos grupales definidos al momento.  Ejemplo:
 ```
 + Destino
 |-- Nacional [+18]
@@ -44,12 +44,12 @@ Cada miembro verá la tendencia en el objetivo del grupo gracias a un indicador 
         |-- Barcelona+Madrid+Berlin+Roma [--]
 ```
 
-A medida que el miembro vaya definiendo las características, y en base a un costo de referencia que tendrá cada rama, podrá ver un costo total aproximado de su propio objetivo y el del objetivo grupal.
+A medida que el miembro vaya definiendo las características, y en base a un costo de referencia que tendrá cada rama, podrá ver un costo total aproximado de su [objetivo individual](objetivo.md) y los costos estimados de los diferentes [objetivos grupales](objetivos.md)  definidos hasta este momento.
 
-##### Configuración del objetivo
-Una vez seleccionado el objetivo, el miembro debe proceder a definir la configuración del mismo. La configuración del objetivo consiste en definir las preferencias sobre las características que definen el objetivo a un nivel de mayor detalle, detalles que podrán diferir con las preferencias de otros miembros con el mismo objetivo.
+##### Configuración del objetivo individual
+Una vez seleccionado el objetivo, el miembro debe proceder a definir la configuración del mismo. La configuración del objetivo consiste en definir las preferencias sobre las características en mayor detalle; detalles que podrán diferir con las preferencias de otros miembros que compartan el mismo objetivo (objetivo grupal).
 
-Para este fin el miembro cuenta con una estructura de árbol con varias raíces que va recorriendo por rama y definiendo, en cada nodo que lo requiera, su preferencia. Esta estructura es propuesta por Bulkaria en base a una plantilla asociada al objetivo seleccionado en el paso anterior.
+Para este fin el miembro cuenta con una estructura de árbol con varias raíces que va recorriendo por rama y definiendo, en cada nodo su preferencia. Esta estructura es propuesta por Bulkaria en base a una plantilla asociada al objetivo seleccionado en el paso anterior.
 
 La preferencia del miembro será indicada mediante un valor numérico entre 0 y N dependiendo de:
 
@@ -78,9 +78,7 @@ Ejemplo:
 ```
 Cada nodo del árbol de configuración cuenta con la posibilidad de recibir comentarios en los que los miembros podrán fundamentar su elección y/o contestar otros comentarios de manera anidada (ver [estructura de comentarios](estructura-de-comentarios.md)).
 
-Cada miembro verá la suma de los valores que cada uno de sus compañeros, con el mismo objetivo, han asignado a un nodo y de esta manera tendrá un panorama de la configuración a la que tiende el grupo. Estos indicadores con dinámicos, ya que dependen de los tiempos de interacción de los miembros con la plataforma.
-
-A medida que el miembro va realizando la configuración y en base a costos de referencia (promedio o maximo/mínimo) que tendrá cada nodo, dispondrá de un costo total aproximado del producto. Y en base a la configuración consolidada de todos los miembros también podrá ver una tendencia del costo total aproximado de la preferencia del grupo.
+Cada miembro podrá visualizar la tendencia sobre cada item de configuración a través de un indicador de tendencia ('heat-map', estrellita, etc a definir). Estos indicadores son dinámicos, ya que dependen de los tiempos de interacción de los miembros con la plataforma.
 
 ##### Flujo del proceso de incubación
 Para una mejor comprensión de los pasos de este proceso, a continuación se ejemplifica con el flujo de la [clase de producto](clase-de-producto) **viaje de egresados**.
@@ -93,8 +91,11 @@ Para una mejor comprensión de los pasos de este proceso, a continuación se eje
 Destino > Nacional > Neuquén > Bariloche
 Mes > Septiembre
 ```
-1. BE consulta al usuario si desea continuar con el siguiente paso: Configuración del objetivo
-1. BE buscará la plantilla de configuración del objetivo adecuada al objetivo seleccionado. Ejemplo: no es lo mismo una plantilla para un viaje de egresados a Bariloche que una para un viaje de egresados a Carlos Paz
+**Nota.** En este momento se considera que el miembro ha definido su objetivo individual.
+
+
+1. BE consulta al usuario si desea continuar con el siguiente paso: Configuración del objetivo individual
+1. BE buscará la plantilla de configuración del objetivo según el objetivo seleccionado. Ejemplo: no es lo mismo una plantilla para un viaje de egresados a Bariloche que una para un viaje de egresados a Carlos Paz.
 1. El miembro deberá configurar los nodos obligatorios del árbol de configuración y podrá optar por completar los opcionales
 1. Una vez que el miembro considere finalizada su configuración y BE valide su completud, deberá indicarlo tildando la señal de proceso finalizado
 
