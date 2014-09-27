@@ -2,26 +2,26 @@ Incubación
 ======
 
 ### Definition
-Se llama incubación a la fase en que los miembros definen las características del [producto](producto.md) que desean contratar.
+Se llama incubación a la fase en que los miembros definen las características del producto o servicio que desean contratar.
 
 #### Description
-Esta es una de las fases más importantes de BE, en ella los miembros definen las características del producto que desean contratar siguiendo el flujo que se explica más abajo. 
+Esta es una de las fases más importantes de BE, en ella los miembros definen las características del producto o servicio que desean contratar siguiendo el flujo que se explica más abajo. 
 
 Se entiende que el actor [miembro](../actors/miembro.md) ha realizado el proceso de [check-in](../process/check-in.md), convirtiéndose en un [miembro](../actors/miembro.md) del [grupo](../actors/grupo.md), antes de iniciar el proceso.
 
-En este proceso, el miembro interactúa con tres estructuras bien definidas: **clase de producto**, **objetivo individual** y **configuración del objetivo individual**.
+En este proceso, el miembro interactúa con tres estructuras bien definidas: **clase de objetivo**, **objetivo individual** y **configuración del objetivo individual**.
 
-##### Clase de producto
-La clase de producto acota el tipo de objetivo que podrá configurar un miembro. Cada clase de producto agrupa objetivos de un mismo tipo, con características intrínsecamente similares y con un ciclo de vida común. Un miembro del grupo podrá definir varias clases de producto diferentes, es decir apuntar a varios objetivos distintos, por ejemplo *viaje de egresados* y *fiesta de egresados*, pero cada uno tendrá su propio ciclo de vida, por lo tanto sus propios tiempos, un único [wall](wall.md), etc.
+##### Clase de objetivo
+La clase de objetivo acota el tipo de objetivo que podrá configurar un miembro. Cada clase de objetivo agrupa objetivos de un mismo tipo, con características intrínsecamente similares y con un ciclo de vida común. Un miembro del grupo podrá definir varias clases de objetivos diferentes, es decir apuntar a varios objetivos distintos, por ejemplo *viaje de egresados* y *fiesta de egresados*, pero cada uno tendrá su propio ciclo de vida, por lo tanto sus propios tiempos, un único [wall](wall.md), etc.
 
-Si bien el grupo puede tener cualquier cantidad de miembros, no necesariamente todos compartirán las mismas clases de productos, es decir los mismos objetivos. Cuando un miembro comience a configurar un objetivo partiendo de seleccionar una clase de producto, verá la actividad de los miembros que estén configurando la misma clase y podrá interactuar con ellos a través de comentarios tanto en el wall asociado al objetivo como en cada ítem de la configuración.
+Si bien el grupo puede tener cualquier cantidad de miembros, no necesariamente todos compartirán las mismas clases de objetivos, es decir los mismos objetivos. Cuando un miembro comience a configurar un objetivo partiendo de seleccionar una clase de objetivo, verá la actividad de los miembros que estén configurando la misma clase y podrá interactuar con ellos a través de comentarios tanto en el wall asociado al objetivo como en cada ítem de la configuración.
 
 No obstante esta separación de objetivos, todos los miembros podrán interactuar independientemente de estos en el [wall general del grupo](wall.md)
 
 ##### Objetivo individual
-Dada una clase de producto cada miembro podrá definir el _producto objetivo_ que consiste en seleccionar las características esenciales del producto que lo hacen diferente de otros productos de la misma clase. Para ello Bulkaria contará con una plantilla por clase de producto que consistirá en un conjunto de todas las características que poseen todos los productos de la misma clase. Mediante esta plantilla cada miembro irá definiendo su objetivo individual como se explica a continuación. 
+Dada una clase de objetivo cada miembro podrá definir una instancia de dicha clase que consiste en seleccionar las características esenciales del objetivo que lo hacen diferente de otros objetivos de la misma clase. Para ello Bulkaria contará con una plantilla por clase de objetivo que consistirá en un conjunto de todas las características que poseen todos los objetivos de la misma clase. Mediante esta plantilla cada miembro irá definiendo su objetivo individual como se explica a continuación. 
 
-Las características tienen una organización jerárquica de árbol con varias raíces y el objetivo queda completamente definido cuando se ha seleccionado un rama completa de **cada** raíz del árbol. Ejemplo: para la clase *viaje de egresados* el objetivo del producto seleccionado por un miembro (ramas completas) podría ser: 
+Las características tienen una organización jerárquica de árbol con varias raíces y el objetivo queda completamente definido cuando se ha seleccionado un rama completa de **cada** raíz del árbol. Ejemplo: para la clase *viaje de egresados* el objetivo individual de un miembro (ramas completas) podría ser: 
 ```
 Destino > Nacional > Bariloche
 Mes > Septiembre
@@ -78,12 +78,12 @@ Ejemplo:
 ```
 Cada nodo del árbol de configuración cuenta con la posibilidad de recibir comentarios en los que los miembros podrán fundamentar su elección y/o contestar otros comentarios de manera anidada (ver [estructura de comentarios](estructura-de-comentarios.md)).
 
-Cada miembro podrá visualizar la tendencia sobre cada item de configuración a través de un indicador de tendencia ('heat-map', estrellita, etc a definir). Estos indicadores son dinámicos, ya que dependen de los tiempos de interacción de los miembros con la plataforma.
+Cada miembro podrá visualizar la tendencia sobre cada item de configuración a través de un indicador de tendencia ('heat-map', estrellita, etcs. a definir). Estos indicadores son dinámicos, ya que dependen de los tiempos de interacción de los miembros con la plataforma.
 
 ##### Flujo del proceso de incubación
-Para una mejor comprensión de los pasos de este proceso, a continuación se ejemplifica con el flujo de la [clase de producto](clase-de-producto) **viaje de egresados**.
+Para una mejor comprensión de los pasos de este proceso, a continuación se ejemplifica con el flujo de la [clase de objetivo](clase-de-objetivo) **viaje de egresados**.
 
-1. El miembro selecciona la clase de producto de acuerdo al objetivo pretendido. Esto creará una instancia de dicha clase para el miembro. Ejemplo: Selecciona **viaje de egresados**
+1. El miembro selecciona la clase de objetivo de acuerdo al objetivo pretendido. Esto creará una instancia de dicha clase para el miembro. Ejemplo: Selecciona **viaje de egresados**
 1. Se le presenta el árbol de caracteríticas y debe selecionar un nodo por cada raíz del arbol
 1. Luego de seleccionar un nodo raíz (por ejemplo: **Destino**) debe seleccionar uno de los subnodos que se le presentan (de existir alguno). Ejemplo: **Nacional** o **internacional**
 1. Seguirá profundizando en la selección hasta que no existan más ramas en el árbol. Ejemplo:
@@ -99,10 +99,27 @@ Mes > Septiembre
 1. El miembro deberá configurar los nodos obligatorios del árbol de configuración y podrá optar por completar los opcionales
 1. Una vez que el miembro considere finalizada su configuración y BE valide su completud, deberá indicarlo tildando la señal de proceso finalizado
 
-##### Proceso finalizado
+###### Señal de proceso finalizado
 El miembro contará con una marca de control que le permitirá indicar que ha finalizado con todos los pasos del proceso. Esta marca de control solo será accesible en el proceso de configuración del objetivo y se habilitará luego de que se hayan seleccionado todos los nodos obligatorios.
-El miembro podrá desmarcar el control si desea rever su configuración, siempre y cuando la etapa de incubación no haya finalizado.
-El proceso de incubación finaliza cuando 3/4 de los miembros han marcado su configuración como terminada.
+El miembro podrá desmarcar el control si desea rever su configuración, siempre y cuando la etapa de incubación no haya finalizado (ver a continuación).
+
+##### Finalización de la etapa de incubación
+La finalización de la etapa de incubación no esta definida aun, pero tiene cuatro escenarios posibles a saber.
+
+###### Escenario 1: Con 3/4 de los miembros del grupo
+El proceso de incubación finaliza cuando 3/4 de los miembros del grupo han finalizado la configuración de su  objetivo individual.
+
+###### Escenario 2: Con 3/4 de los miembros de la clase
+El proceso de incubación finaliza cuando 3/4 de los miembros que han instanciado la misma clase de objetivo, han marcado su configuración como finalizada.
+
+###### Escenario 3: El primer miembro finaliza la configuración
+El proceso de incubación finaliza cuando uno cualquiera de los miembros que han instanciado la misma clase de objetivo, han marcado su configuración como finalizada.
+
+###### Escenario 4: 7 miembros han finalizado la configuración
+El proceso de incubación finaliza cuando 7 (siete) cualquiera de los miembros que han instanciado la misma clase de objetivo, han marcado su configuración como finalizada.
+
+##### Resolución de conflictos
+Cuando (independientemente del escenario) no se pueda cumplir con la condición requerida para finalizar la etapa de incubación, se pordrá finalizar a través de una [asamblea](asamblea.md). 
 
 #### Attributes
 No aplica
