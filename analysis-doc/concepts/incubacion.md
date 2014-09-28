@@ -80,6 +80,10 @@ Cada nodo del árbol de configuración cuenta con la posibilidad de recibir come
 
 Cada miembro podrá visualizar la tendencia sobre cada item de configuración a través de un indicador de tendencia ('heat-map', estrellita, etcs. a definir). Estos indicadores son dinámicos, ya que dependen de los tiempos de interacción de los miembros con la plataforma.
 
+##### Clonado de un objetivo individual NUEVO!
+Un miembro puede optar por evitar todo el preceso de seleccionar y configurar su objetivo individual clonando (copiando) el de otro miembro que ya lo haya realizado. Si clona un objetivo individual ya finalizado, el mismo será copiado pero sin la marca de finalización, es decir el miembro específicamente deberá finalizarlo.
+El clonado de un objetivo individual permite su posterior modificación por si el miembro quisiera variar alguna configuración.
+
 ##### Flujo del proceso de incubación
 Para una mejor comprensión de los pasos de este proceso, a continuación se ejemplifica con el flujo de la [clase de objetivo](clase-de-objetivo) **viaje de egresados**.
 

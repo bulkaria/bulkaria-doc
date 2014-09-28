@@ -15,7 +15,7 @@ El llamado a una asamblea puede ser iniciado por cualquier miembro del grupo (de
 Los atributos de un llamado a asamblea son:
 * Agenda: compuesta por temas a tratar con un orden y duración sugerida. El originador debe indicar al menos un tema inicial.
 * Fecha y hora de inicio
-* Tolerancia para quorum automático: tiempo que se esperará por el ingreso de los miembros del grupo a la asamblea. Este tiempo no podrá ser menor a 10 minutos ni mayor a 30. El quorum mínimo será de 7 (siete) miembros. De no llegar a este número la asamblea se cancelará. 
+* Tolerancia para quorum automático: tiempo que se esperará por el ingreso de los miembros del grupo a la asamblea. Este tiempo no podrá ser menor a 10 minutos ni mayor a 30 (ver si no conviene definir libremente). El quorum mínimo será de 7 (siete) miembros. De no llegar a este número la asamblea se cancelará.
 * Duración de la asamblea: será la suma de los tiempos asignados a cada tema más la tolerancia para quorum automático.
 * Tiempo máximo de ponencias: será el tiempo máximo que cada miembro podrá tomar para establecer su opinión sobre un tema.
 * Reglas de la asamblea: lista de reglas que deberá cumplirse durante la asamblea. Podrán adoptarse de una plantilla propuesta por Bulkaria con modificaciones o agregados de los miembros precursores.
@@ -50,7 +50,7 @@ La asamblea iniciará si:
 ##### Dashboard de asamblea
 El dashboard de asamblea es un conjunto de utilidades que permiten el desenvolvimiento armónico de la misma. Estas utilidades son:
 
-1. Moderación: a medida que los miembros van ingresando al room deben votar por un miembro moderador entre los ingresados al momento, contemplándose el voto a si mismo. Una vez iniciada la asamblea el moderador será aquel con mayor cantidad de votos y en caso de empate el que haya ingresado primero. La función del moderador será la de controlar que ningún miembro trasgreda las reglas de la asamblea. Su herramienta de acción son la posibilidad de silenciar la ponencia de un miembro o banear un miembro de la asamblea.
+1. Moderación: a medida que los miembros van ingresando al room deben votar por un miembro moderador entre los ingresados al momento, contemplándose el voto a si mismo. Una vez iniciada la asamblea el moderador será aquel con mayor cantidad de votos y en caso de empate el que haya ingresado primero. La función del moderador será la de controlar que ningún miembro trasgreda las reglas de la asamblea. Su herramienta de acción son la posibilidad de silenciar la ponencia de un miembro o banear un miembro de la asamblea. El moderador podrá ceder su posicion en veneficio de otro miembro que él decida.
 1. Ponencias: los miembros podrán solicitar la palabra para establecer la posición sobre un tema. Esto lo harán por medio de un botón dispuesto a tal fin. La ponencia podrá durar lo que se haya establecido en _Tiempo máximo de ponencias_. Los turnos los asignará bulkaria según el orden en que se haya solicitado la palabra. Cada ponencia podrá ser calificada por los miembros con estrellas. Podrá haber ponencias mientras reste algo del tiempo asignado al tema.
 1. Votación: cuando se hayan finalizado las ponencias todos los miembros deberán votar el tema de acuerdo al tipo de resolución con que se lo haya configurado.
 
