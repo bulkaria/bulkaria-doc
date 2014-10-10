@@ -81,19 +81,3 @@ Cuando para una propuesta la cantidad de adhesiones halla llegado a C+ se sucede
 1. BE informará a los miembros adherentes a propuestas no cerradas y a los indecisos de la posibilidad o no de cerrar alguna otra propuesta, especificando cual o cuales.
 1. Los miembros indecisos y los adherentes a propuestas abiertas podrán sumarse (previo a retractarse de la propuesta actual en este ultimo caso) a la nueva propuesta cerrada antes de la fecha de cierre indicada por el proveedor.
 1. Una vez alcanzada la fecha de cierre la propuesta pasará a la siguiente etapa y ya no se podrán adherir nuevos miembros a la misma.
-
-#### Attributes
-
-### Processes related to this concept
-
-### Relationships with other concepts
-* Link to other concept 
-* ...
-* Link to other concept
-
-### Examples 
-
-Provide some concrete examples whenever possible
-* Example 
-* ...
-* Example

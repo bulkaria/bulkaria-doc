@@ -124,16 +124,3 @@ El proceso de incubación finaliza cuando 7 (siete) cualquiera de los miembros q
 
 ##### Resolución de conflictos
 Cuando (independientemente del escenario) no se pueda cumplir con la condición requerida para finalizar la etapa de incubación, se pordrá finalizar a través de una [asamblea](asamblea.md). 
-
-#### Attributes
-No aplica
-
-### Processes related to this concept
-* [Check-in](../process/check-in.md)
-
-### Relationships with other concepts
-* [Gestación](gestacion.md)
-* [Desarrollo](desarrollo.md)
-
-### Examples 
-In line
