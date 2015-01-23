@@ -48,13 +48,6 @@ El flujo del proceso es el siguiente:
 * [Creación o actualización de perfil de grupo](../process/crud-perfil-de-grupo.md)
 * [Creación de grupo](../process/creacion-de-grupo.md)
 
-### Relationships with other concepts
-* {TODO}
-
 ### Preconditions
 * El miembro debe ser un usuario registrado de Bulkaria
 
-### Examples 
-
-Provide some concrete examples whenever possible
-* {TODO}

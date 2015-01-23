@@ -15,19 +15,3 @@ Si en dicho período no se completaron los 6 check-ins Bulkaria cancelará el pr
 En esta etapa solo se podrán enviar invitaciones del tipo miembro alumno.
  
 Los miembros que realizaron el check-in podrán a su vez cursar invitaciones para favorecer la creación del grupo.
-
-#### Attributes
-
-### Processes related to this concept
-
-### Relationships with other concepts
-* Link to other concept 
-* ...
-* Link to other concept
-
-### Examples 
-
-Provide some concrete examples whenever possible
-* Example 
-* ...
-* Example
